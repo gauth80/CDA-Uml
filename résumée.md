@@ -1,10 +1,10 @@
 # Diagrammes : UML part 1
 
-+  [Diagramme de cas d'utilisation](#dac)
++  [Diagramme de cas d'utilisation](#DCU)
 
-+ Diagramme de séquence système
++ [Diagramme de séquence système](#DSS)
 
-+ Diagramme d'activitée
++ [Diagramme d'activitée](#DAC)
 
 ## Règles de gestion :
 
@@ -38,8 +38,40 @@
 
 15. le personnel peut consulter la situation de chaque lecteur
 
+    
+
     _____
 
-    ## <a id="dac">Diagramme de cas d'utilisation</a>
+    ## <a id="DCU">Diagramme de cas d'utilisation</a>
+    
+    ![digramme de cas d'utilisation](img/DCU.png)
+    
+    _____
+    
+    
+    
+    ## <a id="DSS">Diagramme de séquence système</a>
+    
+    ### Diagramme flux principal : 
 
-    ![digramme de cas d'utilisation]("./CDA-Uml/img/DCU.png")
+![Diagramme Nominal](img/01_DSS_Nominal.png)
+
+### Fragment du flux principal (Authentification) : 
+
+![DSS Authentification](img/02_DSS_Authentification.png)
+
+### DSS Alternatif (Register User)  :
+
+### ![DSS register](img/03_DSS_Register.png) 
+
+### DSS Alternatif (Register Documents ) : 
+
+![DSS Register doc](img/04_DSS_Register_Doc.png)
+
+_____
+
+## <a id="DAC">Diagramme d' activitée</a>
+
+![DAC](img/DAC.png)
+
+### 
